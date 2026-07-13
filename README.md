@@ -2,48 +2,6 @@
 
 This repository contains coursework and assignments for the CSA1709 Artificial Intelligence course, organized into 5 units with 3 assignments each.
 
-## Repository Structure
-
-```
-CSA1709-ARTIFICIAL-INTELLIGENCE/
-├── README.md
-├── unit-1/
-│   ├── Assignment-1/
-│   │   └── README.md
-│   ├── Assignment-2/
-│   │   └── README.md
-│   └── Assignment-3/
-│       └── README.md
-├── unit-2/
-│   ├── Assignment-1/
-│   │   └── README.md
-│   ├── Assignment-2/
-│   │   └── README.md
-│   └── Assignment-3/
-│       └── README.md
-├── unit-3/
-│   ├── Assignment-1/
-│   │   └── README.md
-│   ├── Assignment-2/
-│   │   └── README.md
-│   └── Assignment-3/
-│       └── README.md
-├── unit-4/
-│   ├── Assignment-1/
-│   │   └── README.md
-│   ├── Assignment-2/
-│   │   └── README.md
-│   └── Assignment-3/
-│       └── README.md
-└── unit-5/
-    ├── Assignment-1/
-    │   └── README.md
-    ├── Assignment-2/
-    │   └── README.md
-    └── Assignment-3/
-        └── README.md
-```
-
 ## Units Overview
 
 - **Unit 1**: Introduction to AI & Problem Solving
