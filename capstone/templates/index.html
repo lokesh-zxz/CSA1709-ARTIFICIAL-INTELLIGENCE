@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Character Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Character Recognizer</h1>
+            <p>Draw or upload a character (0-9, A-Z, a-z) below and the CNN will predict it in real-time.</p>
+        </header>
+
+        <main class="app-content">
+            <div class="canvas-container">
+                <canvas id="drawingCanvas" width="280" height="280"></canvas>
+                <div class="controls">
+                    <button id="clearBtn">Clear Canvas</button>
+                    <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                    <button id="uploadBtn" class="secondary-btn">Upload Image</button>
+                </div>
+            </div>
+
+            <div class="prediction-container">
+                <h2>Prediction</h2>
+                <div id="predictionResult" class="result">-</div>
+                <div class="confidence-container">
+                    <span>Confidence: </span>
+                    <span id="confidenceValue">0%</span>
+                    <div class="progress-bar">
+                        <div id="confidenceFill" class="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
